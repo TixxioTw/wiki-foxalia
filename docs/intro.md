@@ -1,47 +1,20 @@
 ---
 sidebar_position: 1
+slug: /
+title: 🏠 Accueil
 ---
 
-# Tutorial Intro
+# 🦊 Bienvenue sur le Wiki Foxalia
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Plongez dans l'univers de notre serveur. Que vous soyez un nouveau joueur ou un vétéran, vous trouverez ici tous les secrets de Foxalia !
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+### 🧭 Navigation Rapide
+* **[📜 Règlement](./intro)** : Ce qu'il faut savoir pour jouer sereinement.
+* **[💰 Économie](./intro)** : Comment devenir le plus riche du serveur.
+* **[⚔️ Gameplay](./intro)** : Découvrez nos mécaniques uniques.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::tip Rejoignez-nous !
+L'adresse IP est : `play.foxalia-mc.fr`
+:::
