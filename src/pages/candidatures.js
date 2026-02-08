@@ -20,7 +20,7 @@ export default function Candidatures() {
       username: "Foxalia Recrutements",
       avatar_url: "https://docs.foxalia-mc.fr/img/foxalia.png",
       embeds: [{
-        title: "✨ Nouvelle Candidature Staff",
+        title: "✨ NOUVELLE CANDIDATURE STAFF",
         description: `Un nouveau candidat souhaite rejoindre l'équipe !`,
         color: 3066993,
         timestamp: new Date().toISOString(),

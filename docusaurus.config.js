@@ -21,6 +21,22 @@ const config = {
     locales: ['fr'],
   },
 
+  // PLUGIN DE RECHERCHE (Version stable sans Python)
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["fr"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: "/", 
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -28,7 +44,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/', 
+          routeBasePath: '/', // On arrive direct sur le wiki
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -43,6 +59,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // CONFIGURATION DE LA BARRE DE NAVIGATION
       navbar: {
         title: 'Foxalia',
         logo: {
@@ -67,15 +84,26 @@ const config = {
             position: 'left',
           },
           {
+            to: '/voter',
+            label: 'Voter',
+            position: 'left',
+          },
+          {
             href: 'https://discord.gg/DnGcXttTSz',
             label: 'Discord',
             position: 'right',
           },
         ],
       },
+      // APPARENCE DU CODE DANS LE WIKI
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      // OPTIONS DE COULEURS (Optionnel)
+      colorMode: {
+        defaultMode: 'dark',
+        respectPrefersColorScheme: true,
       },
     }),
 };
