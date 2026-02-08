@@ -7,12 +7,15 @@ const config = {
   tagline: "Découvrez l'univers de notre serveur Minecraft",
   favicon: 'img/favicon.ico',
 
+  // L'URL de ton site en production
   url: 'https://docs.foxalia-mc.fr',
   baseUrl: '/',
 
+  // Tes informations GitHub
   organizationName: 'TixxioTw', 
   projectName: 'wiki-foxalia',
 
+  // Configuration pour éviter que le build plante sur Vercel
   onBrokenLinks: 'warn', 
   onBrokenMarkdownLinks: 'warn',
 
@@ -28,11 +31,15 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          // Rendre le Wiki accessible directement à la racine (plus de landing page)
           routeBasePath: '/', 
+          // Activer l'auteur et la date de modification
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          // Lien vers ton repo pour permettre les statistiques de mise à jour
+          // editUrl: 'https://github.com/TixxioTw/wiki-foxalia/tree/main/',
         },
-        blog: false,
+        blog: false, // On désactive le blog pour un style pur wiki
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -47,7 +54,7 @@ const config = {
         title: 'Foxalia',
         logo: {
           alt: 'Foxalia Logo',
-          src: 'img/foxalia.png',
+          src: 'img/foxalia.png', // Pense à remplacer ce fichier par ton logo 🦊
         },
         items: [
           {
@@ -56,14 +63,6 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
-          // --- AJOUT DE L'ACCÈS STAFF ICI ---
-          {
-            to: '/staff/sanctions', // Chemin vers ton dossier protégé
-            label: '🛡️ Accès Staff',
-            position: 'right',
-            className: 'navbar-staff-link', // Optionnel : pour ajouter du style CSS plus tard
-          },
-          // ----------------------------------
           {
             href: 'https://discord.gg/DnGcXttTSz',
             label: 'Discord',
