@@ -1,9 +1,9 @@
 ---
 sidebar_position: 5
-title: ⭐ Réputation & Recommandations
+title: ⭐ Réputation
 ---
 
-# ⭐ Réputation & Recommandations
+# ⭐ Réputation
 
 Sur Foxalia, l'entraide et la courtoisie sont récompensées. Le système de **Recommandation** permet aux joueurs de saluer votre comportement exemplaire ou votre aide précieuse en jeu.
 
