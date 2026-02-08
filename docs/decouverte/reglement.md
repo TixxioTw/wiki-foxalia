@@ -54,8 +54,9 @@ Tout outil donnant un avantage déloyal est proscrit.
 * Systèmes anti-AFK (macros ou dispositifs physiques).
 * Exploitation de failles ou duplication.
 
-:::warning
-Vous avez découver un bug en jeu ? Utilisez la commande `/bug <texte>`. Remplacez <texte> par le bug. Le haut-staff en sera averti.
+:::warning Signalement de Bug
+Vous avez découvert un bug en jeu ? Utilisez la commande `/bug <votre_message>`. Le haut-staff en sera averti.
+:::
 
 ✅ **Logiciels Autorisés :**
 * Performance (Optifine, Sodium), Mini-maps et Litematica (sans printer).
