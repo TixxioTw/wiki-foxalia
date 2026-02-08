@@ -5,29 +5,25 @@ title: 🤝 Devenir Partenaire
 
 # 🤝 Programme Partenaire Foxalia
 
-Tu es créateur de contenu sur YouTube, Twitch ou TikTok ? Tu souhaites accompagner le développement de Foxalia et partager tes aventures avec ta communauté ? Le grade **Partenaire** est fait pour toi !
+Tu es créateur de contenu sur YouTube, Twitch ou TikTok ? Tu souhaites accompagner le développement de Foxalia et partager tes aventures avec ta communauté ? Découvre les avantages du grade **Partenaire** !
 
 ---
 
-## 🎁 Tes Avantages en jeu & Discord
+## 🎁 Tes Avantages
 
-Devenir partenaire sur Foxalia, c'est bénéficier d'outils exclusifs pour mettre en avant ton contenu :
-
-* **Mise en avant Discord** : Ton contenu est automatiquement partagé dans un salon dédié pour booster ta visibilité.
-* **Commande `/partenaire`** : Accède à des fonctionnalités exclusives directement sur le serveur.
-* **Accès Avant-première** : Découvre et teste nos nouveaux événements avant tout le monde.
+* **Mise en avant Discord** : Ton contenu est relayé dans un salon dédié pour booster ta visibilité auprès de la communauté.
+* **Commandes /partenaire** : Accède à des fonctionnalités exclusives directement sur le serveur pour tes lives et vidéos.
+* **Accès Événements** : Découvre et teste nos nouveaux événements en avant-première avec le staff.
 
 ---
 
-## ✅ Conditions de recrutement
+## ✅ Conditions Requises
 
-Nous analysons chaque profil avec soin. Voici les critères pour nous rejoindre :
-
-* **Âge** : Avoir au minimum **16 ans**.
-* **Expérience** : Avoir réalisé au moins **2 lives ou vidéos** sur le serveur.
-* **Historique** : Ne pas avoir eu de problèmes avec des joueurs ou le staff.
-* **Qualité** : Proposer un gameplay de qualité avec un bon rendu audio et visuel.
-* **Fluidité** : Offrir un contenu dynamique (montage, rythme, clarté).
+* **Activité** : Avoir réalisé au moins **2 lives ou vidéos** de qualité sur Foxalia.
+* **Qualité Audio/Visuelle** : Proposer un contenu propre, clair et agréable à regarder.
+* **Comportement** : Avoir un dossier exemplaire (pas de problèmes récents avec des joueurs ou le staff).
+* **Maturité** : Faire preuve d'un comportement sérieux et respectueux de l'image du serveur.
+* **Partage** : Avoir déjà partagé tes contenus dans le salon Discord `🎥│vidéos-lives`.
 
 ---
 
@@ -36,11 +32,11 @@ Nous analysons chaque profil avec soin. Voici les critères pour nous rejoindre 
 Le recrutement se passe exclusivement sur notre **Discord officiel**.
 
 1. Rejoins-nous : [discord.gg/DnGcXttTSz](https://discord.gg/DnGcXttTSz)
-2. Ouvre un ticket dans la catégorie **"Demande de grade partenaire"**.
+2. Ouvre un **Ticket** dans la catégorie **"Demande de grade partenaire"**.
 3. Envoie ton dossier comprenant :
     * Une présentation de **toi-même** et de **ton contenu**.
     * Les liens vers tes **réseaux sociaux** et ta **plateforme de stream**.
 
-:::info Validation
-Notre équipe étudiera ta demande et te recontactera directement via le ticket sous 48h à 72h.
+:::info Instruction
+N'hésite pas à nous tutoyer dans ton ticket, nous privilégions la proximité avec nos partenaires !
 :::
