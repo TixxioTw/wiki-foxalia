@@ -54,7 +54,7 @@ const config = {
         title: 'Foxalia',
         logo: {
           alt: 'Foxalia Logo',
-          src: 'img/logo.svg', // Pense à remplacer ce fichier par ton logo 🦊
+          src: 'img/foxalia.png', // Pense à remplacer ce fichier par ton logo 🦊
         },
         items: [
           {
@@ -64,24 +64,11 @@ const config = {
             label: 'Wiki',
           },
           {
-            href: 'https://github.com/TixxioTw/wiki-foxalia',
-            label: 'GitHub',
+            href: 'https://discord.gg/DnGcXttTSz',
+            label: 'Discord',
             position: 'right',
           },
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Communauté',
-            items: [
-              { label: 'Site Officiel', href: 'https://foxalia-mc.fr' },
-              { label: 'Discord', href: 'https://discord.gg/foxalia' },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Foxalia. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
