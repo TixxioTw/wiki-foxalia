@@ -20,7 +20,7 @@ Pour obtenir un nom unique avec des dégradés de couleurs :
 3. Copiez le code généré pour l'utiliser dans les commandes ci-dessous.
 
 :::danger Vigilance : Code Magic
-L'usage du code de mise en forme **&k** (caractères mouvants) est strictement interdit. Toute ville utilisant ce code sera contrainte de modifier son identité sous peine de sanction et/ou de suppression par les Gérants et Administrateurs.
+L'usage du code de mise en forme **&k** (caractères mouvants) est strictement interdit. Toute ville utilisant ce code sera contrainte de modifier son identité sous peine de sanction et/ou de suppression par les Gérants ou les Administrateurs.
 :::
 
 ---
