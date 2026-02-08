@@ -13,7 +13,6 @@ export default function Candidatures() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Webhook Foxalia intégré ✅
     const webhookURL = "https://discord.com/api/webhooks/1470101534225334362/5Ty2WcHhbUSkoIWmxzFA2fIgGdYpvbeNBW0z9Q1iMmsyU8NMkUgJKBk8ZWGANwA_pTuS"; 
 
     const message = {
@@ -42,7 +41,8 @@ export default function Candidatures() {
         body: JSON.stringify(message),
       });
       if (response.ok) {
-        setStatus('✅ Candidature transmise avec succès ! Bonne chance.');
+        // Message de succès mis à jour avec l'info de l'entretien ✅
+        setStatus('✅ Candidature reçue ! Si ton profil est retenu, tu seras recontacté sur Discord pour un entretien.');
         setFormData({ pseudo: '', age: '', discord: '', experience: '', motivations: '' });
       } else { 
         setStatus('❌ Erreur technique. Contactez un admin sur Discord.'); 
@@ -81,12 +81,17 @@ export default function Candidatures() {
             <div style={conditionStyle}>🔞 <b>16 ans minimum</b></div>
             <div style={conditionStyle}>🎤 <b>Micro de qualité</b> requis</div>
             <div style={conditionStyle}>⏳ <b>Disponibilité</b> régulière</div>
-            <div style={conditionStyle}>📖 <b>Maîtrise</b> du règlement</div>
+            <div style={conditionStyle}>💬 <b>Entretien oral</b> obligatoire</div>
           </div>
 
-          <p style={{ marginTop: '1.5rem', fontSize: '0.85rem', color: '#4b5563', lineHeight: '1.4' }}>
-            <i>Prenez le temps de rédiger. Les candidatures d'une seule ligne sont supprimées.</i>
-          </p>
+          <div style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef3c7', borderRadius: '8px', border: '1px solid #fde68a' }}>
+            <p style={{ margin: 0, fontSize: '0.85rem', color: '#92400e', fontWeight: 'bold' }}>
+              ℹ️ Processus :
+            </p>
+            <p style={{ margin: '5px 0 0 0', fontSize: '0.8rem', color: '#92400e', lineHeight: '1.4' }}>
+              Après analyse de ta candidature, un membre de la direction te contactera sur Discord pour fixer un rendez-vous oral si ton profil nous intéresse.
+            </p>
+          </div>
         </aside>
 
         {/* COLONNE DROITE : FORMULAIRE */}
@@ -117,7 +122,7 @@ export default function Candidatures() {
 
             <div>
               <label style={labelStyle}>Expériences passées (Staff / Projets)</label>
-              <textarea name="experience" value={formData.experience} onChange={handleChange} required placeholder="Où avez-vous déjà travaillé ? Quelles étaient vos missions ?" style={{...inputStyle, minHeight: '80px'}}></textarea>
+              <textarea name="experience" value={formData.experience} onChange={handleChange} required placeholder="Où avez-vous déjà travaillé ?" style={{...inputStyle, minHeight: '80px'}}></textarea>
             </div>
 
             <div>
@@ -129,7 +134,7 @@ export default function Candidatures() {
               backgroundColor: '#10b981', color: 'white', padding: '1rem', borderRadius: '10px', border: 'none', fontWeight: 'bold', cursor: 'pointer', fontSize: '1rem', marginTop: '0.5rem'
             }}>Envoyer ma candidature</button>
 
-            {status && <div style={{ textAlign: 'center', padding: '0.8rem', borderRadius: '8px', backgroundColor: status.includes('✅') ? '#ecfdf5' : '#fef2f2', color: status.includes('✅') ? '#065f46' : '#991b1b', fontWeight: 'bold', fontSize: '0.9rem' }}>{status}</div>}
+            {status && <div style={{ textAlign: 'center', padding: '1rem', borderRadius: '8px', backgroundColor: status.includes('✅') ? '#ecfdf5' : '#fef2f2', color: status.includes('✅') ? '#065f46' : '#991b1b', fontWeight: 'bold', fontSize: '0.85rem', lineHeight: '1.4' }}>{status}</div>}
           </form>
         </main>
 
