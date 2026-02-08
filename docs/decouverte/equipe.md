@@ -1,0 +1,32 @@
+---
+sidebar_position: 1
+title: 👥 L'Équipe
+---
+
+# 👥 L'Équipe de Foxalia
+
+Retrouvez ici les membres du staff qui font vivre le serveur au quotidien.
+
+### 👑 Gérance
+* **Tixio**
+* **Lehauw**
+
+### 🛠️ Administrateurs
+* **Takashii_Ko**
+* **Altymax**
+
+### 🛡️ Responsables
+* *Pas de responsable actuellement, pôle géré par les Gérants et Administrateurs.*
+
+### ⚔️ Modérateurs
+* *Recrutements à venir.*
+
+###  हेल्पर Helpeurs
+* **Newa300**
+* **RaijinLegend**
+
+---
+
+:::info Nous rejoindre
+Vous souhaitez aider le projet ? Les annonces de recrutement sont postées sur notre **Discord** !
+:::
