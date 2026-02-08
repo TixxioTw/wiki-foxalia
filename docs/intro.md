@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
-title: 👋 Bienvenue
+title: 👋 Bienvenue sur Foxalia !
 ---
 
 # 🦊 Wiki Officiel de Foxalia
