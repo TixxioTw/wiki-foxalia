@@ -31,9 +31,9 @@ Vous pouvez utiliser indifféremment **/v** ou **/ville** pour toutes ces comman
 * **`/v create <nom>`** : Crée votre ville (attention, le nom est définitif !).
 * **`/v invite <joueur>`** : Envoie une invitation à un futur citoyen.
 * **`/v join <nom>`** : Permet de rejoindre une ville après avoir été invité.
-* **`/v claim`** : Protège la zone où vous vous trouvez pour votre ville.
-* **`/v unclaim`** : Retire la protection de la zone actuelle.
 * **`/v info`** : Affiche les informations détaillées, la liste des membres et la banque de la ville.
+* **`/v bank`** : Accéder à la banque de la ville.
+* **`/v`** : Accéder au menu de gestion de la ville.
 
 ---
 
