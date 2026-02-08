@@ -62,6 +62,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/status',
+            label: 'État des services',
+            position: 'left',
+          },
+          {
             href: 'https://discord.gg/DnGcXttTSz',
             label: 'Discord',
             position: 'right',
