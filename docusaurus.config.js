@@ -7,13 +7,15 @@ const config = {
   tagline: "Découvrez l'univers de notre serveur Minecraft",
   favicon: 'img/favicon.ico',
 
+  // L'URL de ton site en production
   url: 'https://docs.foxalia-mc.fr',
   baseUrl: '/',
 
+  // Tes informations GitHub
   organizationName: 'TixxioTw', 
   projectName: 'wiki-foxalia',
 
-  // Correction : on passe en 'warn' pour que le site s'affiche même avec des erreurs de liens
+  // Configuration pour éviter que le build plante sur Vercel
   onBrokenLinks: 'warn', 
   onBrokenMarkdownLinks: 'warn',
 
@@ -29,8 +31,15 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          // Rendre le Wiki accessible directement à la racine (plus de landing page)
+          routeBasePath: '/', 
+          // Activer l'auteur et la date de modification
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          // Lien vers ton repo pour permettre les statistiques de mise à jour
+          editUrl: 'https://github.com/TixxioTw/wiki-foxalia/tree/main/',
         },
-        blog: false, 
+        blog: false, // On désactive le blog pour un style pur wiki
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -45,7 +54,7 @@ const config = {
         title: 'Foxalia',
         logo: {
           alt: 'Foxalia Logo',
-          src: 'img/logo.svg', 
+          src: 'img/logo.svg', // Pense à remplacer ce fichier par ton logo 🦊
         },
         items: [
           {
