@@ -8,7 +8,7 @@ title: 👥 L'Équipe
 Retrouvez ici les membres du staff qui font vivre le serveur au quotidien.
 
 ### 👑 Gérance
-* **Tixio**
+* **Tixxio**
 * **Lehauw**
 
 ### 🛠️ Administrateurs
