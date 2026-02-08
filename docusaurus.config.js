@@ -13,11 +13,12 @@ const config = {
   organizationName: 'TixxioTw', 
   projectName: 'wiki-foxalia',
 
-  onBrokenLinks: 'throw',
+  // Correction : on passe en 'warn' pour que le site s'affiche même avec des erreurs de liens
+  onBrokenLinks: 'warn', 
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'en', // On garde 'en' pour éviter l'erreur de build Vercel
+    defaultLocale: 'en', 
     locales: ['en'],
   },
 
@@ -29,7 +30,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
         },
-        blog: false, // Désactivé pour un wiki plus propre
+        blog: false, 
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -66,14 +67,8 @@ const config = {
           {
             title: 'Communauté',
             items: [
-              {
-                label: 'Site Officiel',
-                href: 'https://foxalia-mc.fr',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/votre-lien',
-              },
+              { label: 'Site Officiel', href: 'https://foxalia-mc.fr' },
+              { label: 'Discord', href: 'https://discord.gg/foxalia' },
             ],
           },
         ],

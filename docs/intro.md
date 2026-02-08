@@ -1,20 +1,19 @@
 ---
 sidebar_position: 1
 slug: /
-title: 🏠 Accueil
+title: Bienvenue
 ---
 
-# 🦊 Bienvenue sur le Wiki Foxalia
+# 🦊 Wiki Officiel de Foxalia
 
-Plongez dans l'univers de notre serveur. Que vous soyez un nouveau joueur ou un vétéran, vous trouverez ici tous les secrets de Foxalia !
+Bienvenue sur l'encyclopédie de notre serveur Minecraft ! Vous trouverez ici tous les guides et règlements.
 
 ---
 
-### 🧭 Navigation Rapide
-* **[📜 Règlement](./intro)** : Ce qu'il faut savoir pour jouer sereinement.
-* **[💰 Économie](./intro)** : Comment devenir le plus riche du serveur.
-* **[⚔️ Gameplay](./intro)** : Découvrez nos mécaniques uniques.
+### 🚀 Liens Utiles
+* **IP du serveur** : `play.foxalia-mc.fr`
+* **Version** : 1.20.1+
 
-:::tip Rejoignez-nous !
-L'adresse IP est : `play.foxalia-mc.fr`
+:::info Note
+Ce wiki est en cours de rédaction. Utilisez le menu à gauche pour naviguer.
 :::

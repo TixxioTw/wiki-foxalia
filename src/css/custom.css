@@ -1,9 +1,4 @@
-/**
- * Global CSS - Foxalia Custom Theme
- */
-
 :root {
-  /* Couleur principale - Orange Renard */
   --ifm-color-primary: #e67e22;
   --ifm-color-primary-dark: #d35400;
   --ifm-color-primary-darker: #c0392b;
@@ -11,12 +6,10 @@
   --ifm-color-primary-light: #f39c12;
   --ifm-color-primary-lighter: #f5b041;
   --ifm-color-primary-lightest: #f8c471;
-  
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* Ajustements pour le mode sombre (plus lisible) */
 [data-theme='dark'] {
   --ifm-color-primary: #f39c12;
   --ifm-color-primary-dark: #e67e22;
@@ -25,6 +18,5 @@
   --ifm-color-primary-light: #f5b041;
   --ifm-color-primary-lighter: #f8c471;
   --ifm-color-primary-lightest: #fad7a0;
-  
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
