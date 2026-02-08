@@ -6,13 +6,13 @@ title: 👋 Bienvenue
 
 # 🦊 Wiki Officiel de Foxalia
 
-Bienvenue sur l'encyclopédie de notre serveur Minecraft ! Vous trouverez ici tous les guides et règlements.
+Bienvenue sur le **WIKI OFFICIEL** de notre serveur Minecraft ! Vous trouverez ici tous les guides et règlements.
 
 ---
 
 ### 🚀 Liens Utiles
 * **IP du serveur** : `play.foxalia-mc.fr`
-* **Version** : 1.20.1+
+* **Version** : 1.21.1 et +
 
 :::info Note
 Ce wiki est en cours de rédaction. Utilisez le menu à gauche pour naviguer.
