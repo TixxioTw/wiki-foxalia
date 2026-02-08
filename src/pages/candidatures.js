@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 
 export default function Candidatures() {
   const [formData, setFormData] = useState({
-    pseudo: '', age: '', discord: '', experience: '', motivations: '', sanctions: 'Aucune'
+    pseudo: '', age: '', discord: '', experience: '', motivations: ''
   });
   const [status, setStatus] = useState('');
 
@@ -13,24 +13,25 @@ export default function Candidatures() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const webhookURL = "TON_WEBHOOK_DISCORD_ICI"; // ⚠️ À REMPLACER
+    // Webhook Foxalia intégré ✅
+    const webhookURL = "https://discord.com/api/webhooks/1470101534225334362/5Ty2WcHhbUSkoIWmxzFA2fIgGdYpvbeNBW0z9Q1iMmsyU8NMkUgJKBk8ZWGANwA_pTuS"; 
 
     const message = {
-      username: "Recrutements Foxalia",
+      username: "Foxalia Recrutements",
       avatar_url: "https://docs.foxalia-mc.fr/img/foxalia.png",
       embeds: [{
-        title: "📄 Nouvelle Candidature Staff",
+        title: "✨ Nouvelle Candidature Staff",
+        description: `Un nouveau candidat souhaite rejoindre l'équipe !`,
         color: 3066993,
         timestamp: new Date().toISOString(),
         fields: [
-          { name: "👤 Pseudo", value: `\`${formData.pseudo}\``, inline: true },
+          { name: "👤 Pseudo en jeu", value: `\`${formData.pseudo}\``, inline: true },
           { name: "🎂 Âge", value: `${formData.age} ans`, inline: true },
-          { name: "🆔 Discord", value: formData.discord, inline: true },
-          { name: "⚖️ Historique Sanctions", value: formData.sanctions },
-          { name: "🛠 Expérience", value: formData.experience },
+          { name: "🆔 Discord", value: `\`${formData.discord}\``, inline: true },
+          { name: "🛠 Expériences passées", value: formData.experience },
           { name: "🎯 Motivations", value: formData.motivations }
         ],
-        footer: { text: "Foxalia - Système Automatisé" }
+        footer: { text: "Foxalia Wiki | Système de Candidatures" }
       }]
     };
 
@@ -41,10 +42,14 @@ export default function Candidatures() {
         body: JSON.stringify(message),
       });
       if (response.ok) {
-        setStatus('✅ Candidature transmise avec succès !');
-        setFormData({ pseudo: '', age: '', discord: '', experience: '', motivations: '', sanctions: 'Aucune' });
-      } else { setStatus('❌ Erreur de transmission.'); }
-    } catch (error) { setStatus('❌ Erreur technique (Discord).'); }
+        setStatus('✅ Candidature transmise avec succès ! Bonne chance.');
+        setFormData({ pseudo: '', age: '', discord: '', experience: '', motivations: '' });
+      } else { 
+        setStatus('❌ Erreur technique. Contactez un admin sur Discord.'); 
+      }
+    } catch (error) { 
+      setStatus('❌ Impossible de joindre Discord.'); 
+    }
   };
 
   return (
@@ -53,10 +58,10 @@ export default function Candidatures() {
         display: 'grid', 
         gridTemplateColumns: '1fr 1.8fr', 
         gap: '1.5rem', 
-        padding: '1.5rem', 
+        padding: '2rem', 
         maxWidth: '1200px', 
         margin: '0 auto', 
-        minHeight: '85vh'
+        minHeight: '80vh'
       }}>
         
         {/* COLONNE GAUCHE : CONDITIONS */}
@@ -68,20 +73,19 @@ export default function Candidatures() {
           alignSelf: 'start'
         }}>
           <span style={{ backgroundColor: '#d97706', color: 'white', padding: '4px 10px', borderRadius: '50px', fontSize: '0.65rem', fontWeight: 'bold' }}>
-            CRITÈRES DE SÉLECTION
+            INFOS RECRUTEMENT
           </span>
-          <h1 style={{ fontSize: '1.8rem', fontWeight: '900', margin: '0.8rem 0', color: '#111827' }}>Rejoindre l'équipe</h1>
+          <h1 style={{ fontSize: '1.8rem', fontWeight: '900', margin: '0.8rem 0', color: '#111827' }}>Rejoins le staff</h1>
           
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', marginTop: '1rem' }}>
-            <div style={conditionStyle}>🔞 <b>16 ans minimum</b> (Strict)</div>
-            <div style={conditionStyle}>⚖️ <b>Casier vierge</b> sur Foxalia</div>
+            <div style={conditionStyle}>🔞 <b>16 ans minimum</b></div>
             <div style={conditionStyle}>🎤 <b>Micro de qualité</b> requis</div>
             <div style={conditionStyle}>⏳ <b>Disponibilité</b> régulière</div>
             <div style={conditionStyle}>📖 <b>Maîtrise</b> du règlement</div>
           </div>
 
           <p style={{ marginTop: '1.5rem', fontSize: '0.85rem', color: '#4b5563', lineHeight: '1.4' }}>
-            <i>Note : Toute candidature bâclée ou comportant trop de fautes sera automatiquement refusée.</i>
+            <i>Prenez le temps de rédiger. Les candidatures d'une seule ligne sont supprimées.</i>
           </p>
         </aside>
 
@@ -106,31 +110,26 @@ export default function Candidatures() {
                 <input name="age" type="number" min="15" value={formData.age} onChange={handleChange} required placeholder="16" style={inputStyle} />
               </div>
               <div>
-                <label style={labelStyle}>Discord</label>
-                <input name="discord" value={formData.discord} onChange={handleChange} required placeholder="tixxio#0000" style={inputStyle} />
+                <label style={labelStyle}>Identifiant Discord</label>
+                <input name="discord" value={formData.discord} onChange={handleChange} required placeholder="tixxio_dev" style={inputStyle} />
               </div>
             </div>
 
             <div>
-              <label style={labelStyle}>Historique de sanctions (Précisez si besoin)</label>
-              <input name="sanctions" value={formData.sanctions} onChange={handleChange} required placeholder="Ex: Aucune / Un mute en 2024..." style={inputStyle} />
-            </div>
-
-            <div>
               <label style={labelStyle}>Expériences passées (Staff / Projets)</label>
-              <textarea name="experience" value={formData.experience} onChange={handleChange} required placeholder="Détaillez vos anciens rôles..." style={{...inputStyle, minHeight: '60px'}}></textarea>
+              <textarea name="experience" value={formData.experience} onChange={handleChange} required placeholder="Où avez-vous déjà travaillé ? Quelles étaient vos missions ?" style={{...inputStyle, minHeight: '80px'}}></textarea>
             </div>
 
             <div>
               <label style={labelStyle}>Motivations & Pourquoi vous ?</label>
-              <textarea name="motivations" value={formData.motivations} onChange={handleChange} required placeholder="Rédigez un paragraphe convaincant..." style={{...inputStyle, minHeight: '100px'}}></textarea>
+              <textarea name="motivations" value={formData.motivations} onChange={handleChange} required placeholder="Qu'allez-vous apporter de plus à Foxalia ?" style={{...inputStyle, minHeight: '120px'}}></textarea>
             </div>
 
             <button type="submit" style={{ 
-              backgroundColor: '#10b981', color: 'white', padding: '0.9rem', borderRadius: '10px', border: 'none', fontWeight: 'bold', cursor: 'pointer', fontSize: '1rem', transition: '0.2s opacity'
-            }}>Envoyer ma candidature sur le bureau des admins</button>
+              backgroundColor: '#10b981', color: 'white', padding: '1rem', borderRadius: '10px', border: 'none', fontWeight: 'bold', cursor: 'pointer', fontSize: '1rem', marginTop: '0.5rem'
+            }}>Envoyer ma candidature</button>
 
-            {status && <div style={{ textAlign: 'center', padding: '0.8rem', borderRadius: '8px', backgroundColor: '#ecfdf5', color: '#065f46', fontWeight: 'bold', fontSize: '0.9rem' }}>{status}</div>}
+            {status && <div style={{ textAlign: 'center', padding: '0.8rem', borderRadius: '8px', backgroundColor: status.includes('✅') ? '#ecfdf5' : '#fef2f2', color: status.includes('✅') ? '#065f46' : '#991b1b', fontWeight: 'bold', fontSize: '0.9rem' }}>{status}</div>}
           </form>
         </main>
 
