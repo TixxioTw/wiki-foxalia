@@ -5,58 +5,54 @@ title: 🎰 Le Casino
 
 # 🎰 Le Casino
 
-Besoin d'un peu d'adrénaline ou envie de tenter le gros lot ? Le **Casino** est l'endroit idéal pour multiplier vos gains. Situé dans une zone dédiée, il propose différentes catégories de jeux adaptées à toutes les bourses.
+Besoin d'un peu d'adrénaline ou envie de tenter le gros lot ? Le **Casino** est l'endroit idéal pour multiplier vos gains. Cette zone dédiée regroupe toutes les machines de tirage pour les aventuriers les plus audacieux.
 
 ---
 
-## 🚀 Accès et Commandes
+## 🚀 Accès au Casino
 
-Il existe deux façons d'interagir avec le casino :
+Pour vous rendre sur les lieux et commencer à jouer, utilisez une seule commande :
 
-* **`/casino`** : Vous téléporte instantanément dans la zone de jeu du serveur.
-* **`/casinoshop`** : Ouvre l'interface d'achat pour vous procurer des clés de tirage.
+* **`/casino`** : Vous téléporte instantanément devant les machines et les marchands.
 
 ---
 
-## 🔑 Les Catégories de Clés
+## 💰 Acheter des Clés
 
-Le casino est divisé en trois paliers. Plus le palier est élevé, plus les récompenses à l'intérieur des box sont légendaires.
+Une fois au Casino, adressez-vous aux **PNJ Marchands** présents sur place. Ils vous proposeront trois catégories de clés selon votre budget.
 
-### 🟢 Catégorie 10K
-Destinée aux débutants ou aux petites mises.
+### 🟢 Palier 10K
 * **x1 Clé** : 1 000 €
 * **x5 Clés** : 4 000 €
 * **x10 Clés** : 8 000 €
 
-### 🟡 Catégorie 100K
-Le juste milieu pour les joueurs confirmés.
+### 🟡 Palier 100K
 * **x1 Clé** : 10 000 €
 * **x5 Clés** : 40 000 €
-* **x10 Clés** : 80 000 €
+* **x10 Clés** : 8 000 €
 
-### 🔴 Catégorie 1M
-Pour les véritables high-rollers du serveur.
+### 🔴 Palier 1M
 * **x1 Clé** : 100 000 €
 * **x5 Clés** : 400 000 €
 * **x10 Clés** : 800 000 €
 
 ---
 
-## 🛡️ Règlement et Sécurité
+## 🛡️ Fonctionnement & Règles
 
-Afin de garantir une expérience de jeu saine pour tous, des limitations techniques sont en place :
+Le système de jeu est automatisé pour garantir l'équité :
 
-* **Délai d'achat** : Un temps d'attente de **30 secondes** est imposé entre chaque achat de clés pour éviter les erreurs de transaction.
-* **Annonces Globales** : Chaque achat de clé est annoncé dans le chat général. Toute la communauté saura quand vous tentez votre chance !
+* **Délai de sécurité** : Un temps d'attente de **30 secondes** est requis entre chaque achat pour éviter les transactions accidentelles.
+* **Annonces en direct** : Lorsqu'un joueur achète des clés, un message global informe tout le serveur. Préparez-vous à recevoir des encouragements !
 
-:::warning Attention
-Le casino repose sur la chance. Ne misez jamais l'argent nécessaire à la survie de votre **Ville** ou au paiement de vos taxes !
+:::warning Jouez avec modération
+Le Casino est un divertissement. Assurez-vous d'avoir assez d'argent pour vos besoins essentiels avant de tenter de décrocher le jackpot.
 :::
 
 ---
 
-## 💡 Comment jouer ?
+## 💡 Comment lancer un tirage ?
 
-1. Utilisez **`/casinoshop`** pour acheter vos clés.
-2. Rendez-vous au **`/casino`**.
-3. Faites un **clic droit** avec votre clé sur la machine (Crate) correspondante pour lancer le tirage.
+1. Rendez-vous au **`/casino`**.
+2. Achetez vos clés auprès du **PNJ** correspondant à votre budget.
+3. Faites un **clic droit** avec votre clé sur la machine de votre choix pour lancer l'animation et découvrir votre gain !
