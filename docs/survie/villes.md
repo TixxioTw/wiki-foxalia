@@ -3,50 +3,100 @@ sidebar_position: 3
 title: 🏘️ Les Villes
 ---
 
-# 🏘️ Système de Villes & Guildes
+# 🏘️ Système de Villes
 
-Sur Foxalia, l'union fait la force. Le système de **Villes** vous permet de vous regrouper sous une même bannière, de protéger vos terres et de bâtir un empire avec vos amis.
-
----
-
-## 🏗️ Fonder et Gérer sa Ville
-
-Pour créer votre propre communauté, vous devez être prêt à assumer les responsabilités d'un chef.
-
-### 📜 Les premières étapes
-* **Création** : Utilisez la commande de fondation pour créer votre groupe.
-* **Territoire** : Délimitez vos terres pour empêcher le grief et le vol.
-* **Recrutement** : Invitez d'autres joueurs pour agrandir votre influence.
+Une **Ville** est une communauté regroupée autour d’une aventure commune et régie par une hiérarchie précise : Chef, Officiers, Citoyens et Recrues.
 
 ---
 
-## 💻 Commandes de Gestion
+## 🎨 Personnalisation (Code couleurs)
 
-Toutes les actions de gestion passent par la commande de base.
+Pour le nom de votre ville, aucune restriction de couleur ne vous est imposée. Vous pouvez utiliser plusieurs couleurs selon vos envies.
 
-:::tip Raccourci
-Vous pouvez utiliser indifféremment **/v** ou **/ville** pour toutes ces commandes.
+:::danger Important : Code Magic
+Le code **&k** (Magic) est strictement **interdit**. Si vous l'utilisez, le staff vous demandera de modifier le préfixe. En cas de refus, la ville pourra être supprimée et une sanction appliquée.
 :::
 
-* **`/v create <nom>`** : Crée votre ville (attention, le nom est définitif !).
-* **`/v invite <joueur>`** : Envoie une invitation à un futur citoyen.
-* **`/v join <nom>`** : Permet de rejoindre une ville après avoir été invité.
-* **`/v info`** : Affiche les informations détaillées, la liste des membres et la banque de la ville.
-* **`/v bank`** : Accéder à la banque de la ville.
-* **`/v`** : Accéder au menu de gestion de la ville.
+---
+
+## 🏗️ Créer une Ville
+
+Pour fonder votre propre ville, vous devez posséder le grade **Titan**.
+
+### Étapes de création
+1. Utilisez la commande : `/v create <nom>`
+2. Pour valider, faites : `/v confirm`
+3. Pour annuler, faites : `/v cancel`
+
+:::tip Difficulté de création ?
+Si un message d'erreur s'affiche :
+* **Caractères spéciaux** : Ils sont interdits et bloquent la création.
+* **Nom trop long** : Créez la ville avec un nom court (ex: `/v create Paris`), validez avec `/v confirm`, puis changez le préfixe avec `/v prefix NomTresLong`.
+:::
 
 ---
 
-## 💰 Économie de Ville
+## 👥 Gestion des Membres
 
-Une ville prospère nécessite des fonds pour s'agrandir et survivre.
+### Inviter et Rejoindre
+* **Inviter un joueur** : `/v invite <pseudo>`
+* **Rejoindre une ville** : `/v join <NomDeLaVille>` ou `/v accept <NomDeLaVille>`
+* **Expulser un membre** : `/v kick <pseudo>`
 
-* **Banque de Ville** : Vous pouvez déposer de l'argent dans un compte commun pour payer les frais d'entretien ou acheter de nouveaux territoires.
-* **`/v deposit <montant>`** : Ajoute de l'argent à la banque de la ville.
-* **`/v withdraw <montant>`** : Retire de l'argent (réservé aux chefs et officiers).
+### Hiérarchie et Rangs
+En tant que chef, vous pouvez promouvoir ou rétrograder vos citoyens :
+* **Promouvoir** : `/v promote <pseudo>`
+* **Rétrograder** : `/v demote <pseudo>`
+
+**Rangs disponibles :** Chef 👑, Officier 🛡️, Membre 👥, Recrue 🎓.
 
 ---
 
-:::danger Attention au Tribut
-Maintenir une ville demande des ressources. Assurez-vous que la banque de votre ville est toujours approvisionnée pour éviter la dissolution automatique de votre territoire !
+## ⚔️ Avantages et Utilitaires
+
+### Chat Privé
+Communiquez uniquement avec les membres de votre ville :
+* Activez/Désactivez avec : `/v chat`
+
+### Points de téléportation (Home)
+* **Définir le point de ralliement** : `/v sethome`
+* **Se téléporter à la ville** : `/v home`
+* **Supprimer le point** : `/v delhome`
+
+---
+
+## 📋 Informations et Évolution
+
+Utilisez `/v info` pour afficher le menu visuel de votre ville :
+* 🪙 **Lingot d'or** : Argent en banque.
+* ⛑️ **Casque en fer** : Liste des membres.
+* 💎 **Émeraude** : Statut (Public/Privé).
+* 🛏️ **Lit** : Gestion du home.
+* 🧰 **Coffre** : Stockage commun de la ville.
+
+### 🚀 Améliorer la Ville (Upgrade)
+Déposez l'argent nécessaire avec `/v bank deposit <somme>` puis faites `/v upgrade`.
+
+| Niveau | Prix | Capacité |
+| :--- | :--- | :--- |
+| **Niveau 2** | 25 000 $ | 5 membres max |
+| **Niveau 3** | 50 000 $ | 10 membres max |
+| **Niveau 4** | 75 000 $ | 15 membres max |
+| **Niveau 5** | 100 000 $ | 25 membres max |
+
+---
+
+## 🔧 Liste des commandes pratiques
+
+| Commande | Action |
+| :--- | :--- |
+| `/v bank balance` | Voir l'argent de la ville. |
+| `/v bank deposit <montant>` | Déposer de l'argent en banque. |
+| `/v bank withdraw <montant>` | Retirer de l'argent. |
+| `/v vault` | Ouvre le coffre de stockage commun. |
+| `/v list` | Affiche la liste de toutes les villes. |
+| `/v delete` | Supprimer définitivement la ville. |
+
+:::info Astuce
+Toutes les commandes peuvent être abrégées en utilisant simplement **`/v`**.
 :::
