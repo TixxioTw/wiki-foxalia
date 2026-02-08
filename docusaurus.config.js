@@ -84,11 +84,6 @@ const config = {
             position: 'left',
           },
           {
-            to: '/voter',
-            label: 'Voter',
-            position: 'left',
-          },
-          {
             href: 'https://discord.gg/DnGcXttTSz',
             label: 'Discord',
             position: 'right',
