@@ -3,12 +3,7 @@ import Layout from '@theme/Layout';
 
 export default function Candidatures() {
   const [formData, setFormData] = useState({
-    pseudo: '',
-    age: '',
-    discord: '',
-    experience: '',
-    motivations: '',
-    disponibilites: ''
+    pseudo: '', age: '', discord: '', experience: '', motivations: '', disponibilites: ''
   });
   const [status, setStatus] = useState('');
 
@@ -20,24 +15,23 @@ export default function Candidatures() {
     e.preventDefault();
     const webhookURL = "TON_WEBHOOK_DISCORD_ICI";
 
-    // Amélioration de l'Embed Discord
     const message = {
       username: "Recrutements Foxalia",
       avatar_url: "https://docs.foxalia-mc.fr/img/foxalia.png",
+      content: "<@&ID_DU_ROLE_ADMIN>", // Optionnel : mentionne un rôle
       embeds: [{
         title: "📄 Nouvelle Candidature Staff",
-        description: `Une nouvelle candidature a été déposée par **${formData.pseudo}**.`,
-        color: 3066993, // Vert émeraude
+        color: 3066993,
         timestamp: new Date().toISOString(),
         fields: [
-          { name: "👤 Pseudo en jeu", value: `\`${formData.pseudo}\``, inline: true },
+          { name: "👤 Pseudo", value: `\`${formData.pseudo}\``, inline: true },
           { name: "🎂 Âge", value: `${formData.age} ans`, inline: true },
           { name: "🆔 Discord", value: formData.discord, inline: true },
-          { name: "🛠 Expériences passées", value: formData.experience },
+          { name: "🛠 Expérience", value: formData.experience },
           { name: "🎯 Motivations", value: formData.motivations },
           { name: "📅 Disponibilités", value: formData.disponibilites }
         ],
-        footer: { text: "Système de Candidature Foxalia" }
+        footer: { text: "Foxalia Wiki" }
       }]
     };
 
@@ -47,126 +41,105 @@ export default function Candidatures() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(message),
       });
-
       if (response.ok) {
-        setStatus('✅ Candidature envoyée ! Nous reviendrons vers vous sur Discord.');
+        setStatus('✅ Envoyé !');
         setFormData({ pseudo: '', age: '', discord: '', experience: '', motivations: '', disponibilites: '' });
-      } else {
-        setStatus('❌ Erreur lors de l\'envoi. Vérifiez le Webhook.');
-      }
-    } catch (error) {
-      setStatus('❌ Erreur technique. Réessayez plus tard.');
-    }
+      } else { setStatus('❌ Erreur Webhook.'); }
+    } catch (error) { setStatus('❌ Erreur technique.'); }
   };
 
   return (
     <Layout title="Candidatures Staff">
-      <div style={{ padding: '3rem 1rem', maxWidth: '900px', margin: '0 auto', color: '#1a1a1b' }}>
+      <div style={{ 
+        display: 'grid', 
+        gridTemplateColumns: '350px 1fr', 
+        gap: '2rem', 
+        padding: '2rem', 
+        maxWidth: '1200px', 
+        margin: '0 auto', 
+        alignItems: 'start',
+        height: 'calc(100vh - 100px)' // Tente de faire tenir sur l'écran
+      }}>
         
-        {/* SECTION ENTÊTE */}
-        <header style={{ 
+        {/* COLONNE GAUCHE : INFOS */}
+        <aside style={{ 
           backgroundColor: '#fffbeb', 
           border: '1px solid #fef3c7', 
           borderRadius: '16px', 
-          padding: '2.5rem', 
-          marginBottom: '2rem',
-          boxShadow: '0 4px 20px rgba(0,0,0,0.05)'
+          padding: '1.5rem',
+          position: 'sticky',
+          top: '2rem'
         }}>
-          <span style={{ backgroundColor: '#d97706', color: 'white', padding: '6px 16px', borderRadius: '50px', fontSize: '0.75rem', fontWeight: 'bold', textTransform: 'uppercase' }}>
-            Ouvert aux candidatures
+          <span style={{ backgroundColor: '#d97706', color: 'white', padding: '4px 12px', borderRadius: '50px', fontSize: '0.65rem', fontWeight: 'bold' }}>
+            RECRUTEMENT OUVERT
           </span>
-          <h1 style={{ fontSize: '2.8rem', fontWeight: '800', margin: '1rem 0', letterSpacing: '-1px' }}>Rejoins le staff</h1>
-          <p style={{ fontSize: '1.1rem', color: '#4b5563', lineHeight: '1.6' }}>
-            Rejoignez l'équipe de modération de Foxalia pour nous aider à faire grandir le projet !
+          <h1 style={{ fontSize: '1.8rem', fontWeight: '800', margin: '1rem 0' }}>Rejoins le staff</h1>
+          <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: '1.5' }}>
+            Devenez modérateur sur Foxalia. Fournis un maximum de détails pour que l'équipe puisse te répondre rapidement.
           </p>
-          <div style={{ marginTop: '1.5rem', display: 'flex', gap: '10px' }}>
-             <div style={{ padding: '10px 15px', backgroundColor: '#fef3c7', borderRadius: '8px', fontSize: '0.9rem', color: '#92400e', fontWeight: '500' }}>
-               📌 Âge minimum : 15 ans
-             </div>
-             <div style={{ padding: '10px 15px', backgroundColor: '#fef3c7', borderRadius: '8px', fontSize: '0.9rem', color: '#92400e', fontWeight: '500' }}>
-               🎤 Micro fonctionnel requis
-             </div>
-          </div>
-        </header>
+          <ul style={{ paddingLeft: '1.2rem', fontSize: '0.85rem', color: '#92400e', fontWeight: '500' }}>
+            <li>Âge : 15 ans minimum</li>
+            <li>Micro Discord requis</li>
+            <li>Connaître le règlement</li>
+          </ul>
+          <a href="https://discord.gg/DnGcXttTSz" style={{ 
+            marginTop: '1rem', display: 'block', textAlign: 'center', backgroundColor: '#d97706', color: 'white', padding: '10px', borderRadius: '8px', textDecoration: 'none', fontWeight: 'bold', fontSize: '0.9rem'
+          }}>Rejoindre le Discord</a>
+        </aside>
 
-        {/* SECTION FORMULAIRE */}
+        {/* COLONNE DROITE : FORMULAIRE */}
         <main style={{ 
           backgroundColor: '#ffffff', 
           border: '2px solid #10b981', 
           borderRadius: '16px', 
-          padding: '2.5rem',
-          boxShadow: '0 10px 30px rgba(0,0,0,0.08)'
+          padding: '1.5rem',
+          boxShadow: '0 4px 15px rgba(0,0,0,0.05)'
         }}>
-          <h2 style={{ color: '#065f46', marginBottom: '2rem', borderBottom: '2px solid #ecfdf5', paddingBottom: '1rem' }}>Envoyer ta candidature</h2>
-          
-          <form onSubmit={handleSubmit} style={{ display: 'grid', gap: '1.5rem' }}>
-            
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+          <form onSubmit={handleSubmit} style={{ display: 'grid', gap: '1rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
               <div>
-                <label style={{ fontWeight: 'bold', display: 'block', marginBottom: '8px' }}>Pseudo en jeu</label>
-                <input name="pseudo" value={formData.pseudo} onChange={handleChange} required placeholder="Exemple: Tixxio" style={inputStyle} />
+                <label style={labelStyle}>Pseudo en jeu</label>
+                <input name="pseudo" value={formData.pseudo} onChange={handleChange} required placeholder="Ex: Tixxio" style={inputStyle} />
               </div>
               <div>
-                <label style={{ fontWeight: 'bold', display: 'block', marginBottom: '8px' }}>Âge</label>
-                <input name="age" type="number" value={formData.age} onChange={handleChange} required placeholder="Ex: 17" style={inputStyle} />
+                <label style={labelStyle}>Âge</label>
+                <input name="age" type="number" value={formData.age} onChange={handleChange} required placeholder="17" style={inputStyle} />
               </div>
             </div>
 
-            <div>
-              <label style={{ fontWeight: 'bold', display: 'block', marginBottom: '8px' }}>Identifiant Discord</label>
-              <input name="discord" value={formData.discord} onChange={handleChange} required placeholder="Ex: tixxio_dev" style={inputStyle} />
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+              <div>
+                <label style={labelStyle}>Identifiant Discord</label>
+                <input name="discord" value={formData.discord} onChange={handleChange} required placeholder="tixxio_dev" style={inputStyle} />
+              </div>
+              <div>
+                <label style={labelStyle}>Disponibilités</label>
+                <input name="disponibilites" value={formData.disponibilites} onChange={handleChange} required placeholder="Soirs et week-end" style={inputStyle} />
+              </div>
             </div>
 
             <div>
-              <label style={{ fontWeight: 'bold', display: 'block', marginBottom: '8px' }}>Expériences passées</label>
-              <textarea name="experience" value={formData.experience} onChange={handleChange} required placeholder="As-tu déjà été staff sur d'autres serveurs ?" style={textareaStyle}></textarea>
+              <label style={labelStyle}>Expériences passées</label>
+              <textarea name="experience" value={formData.experience} onChange={handleChange} required placeholder="Anciens serveurs ?" style={{...inputStyle, minHeight: '60px'}}></textarea>
             </div>
 
             <div>
-              <label style={{ fontWeight: 'bold', display: 'block', marginBottom: '8px' }}>Motivations</label>
-              <textarea name="motivations" value={formData.motivations} onChange={handleChange} required placeholder="Pourquoi toi et pas un autre ? Qu'apporterais-tu à Foxalia ?" style={textareaStyle}></textarea>
-            </div>
-
-            <div>
-              <label style={{ fontWeight: 'bold', display: 'block', marginBottom: '8px' }}>Disponibilités hebdomadaires</label>
-              <input name="disponibilites" value={formData.disponibilites} onChange={handleChange} required placeholder="Lundi 17h-20h, etc." style={inputStyle} />
+              <label style={labelStyle}>Motivations</label>
+              <textarea name="motivations" value={formData.motivations} onChange={handleChange} required placeholder="Pourquoi toi ?" style={{...inputStyle, minHeight: '80px'}}></textarea>
             </div>
 
             <button type="submit" style={{ 
-              backgroundColor: '#10b981', 
-              color: 'white', 
-              padding: '1rem', 
-              borderRadius: '10px', 
-              border: 'none', 
-              fontWeight: 'bold', 
-              fontSize: '1.1rem',
-              cursor: 'pointer',
-              transition: 'transform 0.2s',
-              boxShadow: '0 4px 12px rgba(16, 185, 129, 0.3)'
-            }}>
-              Soumettre ma candidature
-            </button>
+              backgroundColor: '#10b981', color: 'white', padding: '0.8rem', borderRadius: '8px', border: 'none', fontWeight: 'bold', cursor: 'pointer'
+            }}>Envoyer ma candidature</button>
 
-            {status && <div style={{ textAlign: 'center', padding: '1rem', borderRadius: '8px', backgroundColor: status.includes('✅') ? '#ecfdf5' : '#fef2f2', color: status.includes('✅') ? '#065f46' : '#991b1b', fontWeight: 'bold' }}>{status}</div>}
+            {status && <div style={{ textAlign: 'center', fontSize: '0.9rem', fontWeight: 'bold', color: '#065f46' }}>{status}</div>}
           </form>
         </main>
+
       </div>
     </Layout>
   );
 }
 
-// Styles réutilisables
-const inputStyle = {
-  width: '100%',
-  padding: '12px 16px',
-  borderRadius: '10px',
-  border: '1px solid #d1d5db',
-  fontSize: '1rem',
-  backgroundColor: '#f9fafb'
-};
-
-const textareaStyle = {
-  ...inputStyle,
-  minHeight: '120px',
-  resize: 'vertical'
-};
+const labelStyle = { fontWeight: 'bold', display: 'block', marginBottom: '4px', fontSize: '0.85rem' };
+const inputStyle = { width: '100%', padding: '8px 12px', borderRadius: '8px', border: '1px solid #d1d5db', backgroundColor: '#f9fafb', fontSize: '0.9rem' };
