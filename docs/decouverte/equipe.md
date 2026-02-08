@@ -3,7 +3,7 @@ sidebar_position: 2
 title: 👥 L'Équipe Foxalia 
 ---
 
-# 👥 L'Équipe de Foxalia
+# 👥 L'Équipe Foxalia
 
 Retrouvez ici les membres du staff qui font vivre le serveur au quotidien.
 

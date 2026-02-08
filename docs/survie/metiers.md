@@ -3,7 +3,7 @@ sidebar_position: 2
 title: ⚒️ Les Métiers
 ---
 
-# ⚒️ Système de Compétences
+# ⚒️ Les Métiers
 
 Sur Foxalia, votre personnage évolue de manière organique. Chaque action que vous entreprenez renforce votre expérience et vous octroie des bonus permanents.
 

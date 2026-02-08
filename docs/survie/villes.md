@@ -3,7 +3,7 @@ sidebar_position: 3
 title: 🏘️ Les Villes
 ---
 
-# 🏘️ Système de Villes
+# 🏘️ Les Villes
 
 Les **Villes** représentent le cœur de la vie sociale sur Foxalia. En fonder une vous permet de bâtir un empire, de gérer une économie commune et de protéger vos citoyens sous une identité unique.
 

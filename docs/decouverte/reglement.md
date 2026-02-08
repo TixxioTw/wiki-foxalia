@@ -3,7 +3,7 @@ sidebar_position: 1
 title: ⚖️ Règlement Foxalia
 ---
 
-# ⚖️ Règlement de Foxalia
+# ⚖️ Règlement Foxalia
 
 Bienvenue sur la page officielle des lois de Foxalia. Merci de lire attentivement ces lignes afin de comprendre les comportements autorisés et interdits sur nos plateformes.
 

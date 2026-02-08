@@ -3,7 +3,7 @@ sidebar_position: 3
 title: 🤝 Devenir Partenaire
 ---
 
-# 🤝 Deviens partenaire sur Foxalia !
+# 🤝 Devenir Partenaire 
 
 Tu es créateur de contenu sur YouTube, Twitch ou TikTok ? Tu souhaites accompagner le développement de Foxalia et partager tes aventures avec ta communauté ? Découvre les avantages du grade **Partenaire** !
 

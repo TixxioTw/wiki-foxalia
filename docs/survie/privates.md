@@ -3,7 +3,7 @@ sidebar_position: 4
 title: 🔒 Les privates
 ---
 
-# 🔒 Système de Verrouillage
+# 🔒 Les privates
 
 Sur Foxalia, la sécurité de vos ressources est une priorité. Vous avez la possibilité de verrouiller vos contenants et vos machines pour empêcher tout pillage ou utilisation non autorisée.
 

@@ -3,7 +3,7 @@ sidebar_position: 1
 title: 🌍 Téléportations (RTP)
 ---
 
-# 🌍 Système de Téléportation
+# 🌍 Téléportations (RTP)
 
 Sur Foxalia, l'exploration est facilitée par un système de transport rapide. Grâce à la commande unique **`/rtp`**, vous pouvez accéder à tous les mondes et zones utilitaires du serveur via une interface intuitive.
 
