@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
-title: 👥 L'Équipe
+sidebar_position: 2
+title: 👥 L'Équipe Foxalia 
 ---
 
 # 👥 L'Équipe de Foxalia

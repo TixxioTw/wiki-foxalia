@@ -1,97 +1,83 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 title: ⚖️ Règlement Foxalia
 ---
 
-# ⚖️ Règlement Foxalia
+# ⚖️ Règlement de Foxalia
 
-Bienvenue sur la page officielle du Règlement de Foxalia. Merci de lire attentivement ces lignes afin de comprendre les comportements autorisés et interdits sur nos plateformes.
+Bienvenue sur la page officielle des lois de Foxalia. Merci de lire attentivement ces lignes afin de comprendre les comportements autorisés et interdits sur nos plateformes.
 
 :::tip astuce
-Si vous avez des questions ou des doutes concernant le règlement, n'hésitez pas à contacter notre équipe via un ticket Discord, nous nous ferons un plaisir de vous assister.
+Si vous avez des questions ou des doutes concernant le règlement, n'hésitez pas à contacter notre équipe via un ticket Discord.
 :::
 
 :::danger attention
-En vous connectant sur nos plateformes, nous considérons que vous avez lu et accepté le règlement, même en cas de changement futur.
+En vous connectant sur nos plateformes, nous considérons que vous avez lu et accepté ces règles, même en cas de changement futur.
 :::
 
 ---
 
-## Chapitre 1 : Gestion des Comptes
+## 📂 AXE I : IDENTITÉS & ACCÈS
 
-### Partie 1 : Votre Compte Minecraft
-Vous êtes l'unique responsable de la sécurité de votre compte et de vos accès. Il est fortement déconseillé de prêter votre compte à un tiers. Foxalia décline toute responsabilité en cas d'intrusion sur votre compte. Si une règle est enfreinte par votre compte, la sanction sera appliquée même si vous n'étiez pas l'auteur de l'infraction.
+### 🛡️ Article 1.1 : Responsabilité du Compte
+Vous êtes l'unique responsable de la sécurité de votre compte Minecraft. Foxalia décline toute responsabilité en cas d'intrusion. Si une règle est enfreinte, la sanction s'applique au compte, peu importe l'utilisateur au moment des faits.
+Votre pseudonyme et votre skin doivent être corrects (pas d'insultes, de politique ou de discrimination).
 
-Votre pseudonyme doit rester correct : aucune insulte, référence politique ou forme de discrimination (racisme, homophobie, etc.) n'est tolérée. Les skins inappropriés sont également interdits.
-Toute vente de biens virtuels (stuff, monnaie) contre de l'argent réel est strictement interdite.
+### 💬 Article 1.2 : Plateforme Discord
+Votre profil Discord (image, statut) ne doit pas inciter à la haine ou contenir de la publicité. Les messages privés peuvent servir de preuve s'ils concernent directement Foxalia. Le règlement s'applique à l'identique sur nos canaux écrits et vocaux.
 
-### Partie 2 : Votre Compte Discord
-Votre profil Discord (image, statut, description) ne doit comporter aucune incitation à la haine, publicité ou information privée d'un tiers. Les messages privés peuvent être utilisés comme preuve s'ils concernent directement Foxalia (harcèlement, menaces). Le présent règlement s'applique aussi bien à l'écrit qu'en vocal sur notre Discord.
-
-### Partie 3 : Doubles Comptes
-L'usage de plusieurs comptes doit être exceptionnel. Il est interdit d'utiliser plus de **2 comptes** simultanément pour obtenir un avantage injuste ou contourner une sanction.
-L'utilisation de multicomptes pour farmer (métiers, récompenses quotidiennes, événements) est proscrite et entraînera une sanction immédiate sans avertissement. Le contournement de bannissement via un autre compte entraîne le bannissement définitif de tous les comptes liés.
+### 👥 Article 1.3 : Gestion des Doubles Comptes
+L'usage de comptes secondaires est limité à **2 comptes maximum**.
+Il est interdit d'utiliser un multicompte pour multiplier vos gains (métiers, quêtes, votes) ou pour contourner un bannissement. Toute fraude entraînera une sanction immédiate sur l'ensemble des comptes.
 
 :::info important
-Si plusieurs personnes utilisent la même adresse IP chez vous, prévenez impérativement le staff via un ticket pour éviter toute suspicion de multicompte abusif.
-:::
-
-### Partie 4 : Boutique et Achats
-Tous les achats sur la boutique Foxalia sont **définitifs**. Conformément à la loi, vous renoncez à votre droit de rétractation dès la validation de la commande, la prestation étant livrée immédiatement. Un bannissement ne donne droit à aucun remboursement ou transfert d'achat.
-
-:::info important
-Tout litige, litige PayPal ou rétrofacturation entraînera un bannissement définitif immédiat de tous vos comptes.
+En cas d'IP partagée (famille/amis), prévenez impérativement le staff via un ticket pour éviter toute suspicion de triche.
 :::
 
 ---
 
-## Chapitre 2 : Communication & Discussion
+## 💬 AXE II : ÉCHANGES & COMMUNICATION
 
-### Partie 1 : Règles de vie
-Veuillez utiliser un langage correct et adapté à tous. Évitez les termes vulgaires. Le français est la langue recommandée sur le serveur.
-Les décisions de l'équipe staff doivent être respectées. Toute provocation ou irrespect envers un membre du staff est sanctionné. Il est interdit d'enregistrer des conversations vocales sans l'accord des participants.
+### 🗣️ Article 2.1 : Civisme en jeu
+Veuillez utiliser un langage correct. Les insultes, provocations ou propos discriminatoires sont lourdement sanctionnés. Le français est la langue officielle du serveur.
+Les décisions de l'équipe staff sont finales. Toute hostilité envers un membre du staff est interdite.
 
-### Partie 2 : Publicité et /pub
-La publicité doit se limiter aux activités du serveur. Utilisez uniquement la commande `/pub` (une fois toutes les 30 minutes) pour vos annonces de shops, warps ou événements joueurs.
+### 📢 Article 2.2 : Annonces et Publicité
+La publicité est réservée aux activités internes du serveur. Utilisez uniquement la commande `/pub` (toutes les 30 minutes) pour vos boutiques ou événements joueurs.
 
-### Partie 3 : Interdictions de langage
-Sont interdits :
-* Insultes et provocations.
-* Propos discriminatoires (politique, racisme, etc.).
-* Spam, Flood (répétition de caractères) et Majuscules abusives.
-* Divulgation d'informations privées (Dox).
+### 🚫 Article 2.3 : Restrictions de Chat
+Sont strictement interdits : le spam, le flood (répétition de caractères), l'abus de majuscules et la divulgation d'informations privées.
 
 ---
 
-## Chapitre 3 : Gameplay & Technique
+## 🎮 AXE III : MÉCANIQUES & FAIR-PLAY
 
-### Partie 1 : Triche et Exploits
-Tout outil donnant un avantage déloyal est interdit.
+### 🚫 Article 3.1 : Lutte contre la Triche
+Tout outil donnant un avantage déloyal est proscrit.
 
-❌ **Interdits :**
-* Cheats (X-Ray, KillAura, Fly, etc.).
+❌ **Logiciels Interdits :**
+* Clients de triche (X-Ray, KillAura, Fly, etc.).
 * Mods de construction automatique (Printer) et Autoclickers.
 * Systèmes anti-AFK (macros ou dispositifs physiques).
-* Exploitation de bug ou de duplication.
+* Exploitation de failles ou duplication.
 
-✅ **Autorisés :**
-* Mods de performance (Optifine, Sodium).
-* Mini-maps, Litematica (sans printer) et ReplayMod.
+✅ **Logiciels Autorisés :**
+* Performance (Optifine, Sodium), Mini-maps et Litematica (sans printer).
 
-### Partie 2 : Arnaques et Respect
-Toute tentative d'arnaque est interdite (Hôtel des ventes, échanges, faux prix).
-Le grief et le vol sont interdits dans les bases des autres joueurs et dans un rayon de 100 blocs autour d'elles. Le toit du Nether est interdit d'accès et de construction.
+### 🏗️ Article 3.2 : Intégrité du Monde
+Le grief et le vol sont interdits dans les bases claim (protégées) et dans un rayon de 100 blocs autour. Toute arnaque (commerce, hôtel des ventes) est sanctionnée. L'accès au toit du Nether est interdit.
 
-### Partie 3 : Redstone et Performance
-Toute machine provoquant des ralentissements (lag) est interdite. Vos circuits doivent posséder un bouton ON/OFF et une poubelle automatique si nécessaire.
+### ⚙️ Article 3.3 : Performances Techniques
+Toute machine provoquant des ralentissements est interdite. Vos circuits doivent posséder un interrupteur ON/OFF.
 
 :::info important
-Les gérants se réservent le droit de supprimer sans préavis toute zone nuisant aux performances du serveur.
+Le staff se réserve le droit de supprimer sans préavis toute structure nuisant à la fluidité du serveur.
 :::
 
-### Partie 4 : PvP et Sanctions
-Le PvP est autorisé uniquement dans les zones prévues à cet effet. Le TP-Kill (tuer un joueur via une téléproportation piégée) est strictement interdit.
+---
 
-Toute contestation de sanction se fait via ticket Discord. Une contestation abusive peut entraîner un doublement de la peine.
+## ⚖️ AXE IV : LITIGES & SANCTIONS
+
+Toute contestation de sanction doit être effectuée via un ticket Discord. Une contestation jugée abusive pourra entraîner un alourdissement de la peine.
 
 _Dernière mise à jour le 8 février 2026 par l'Équipe Foxalia_
