@@ -3,51 +3,61 @@ sidebar_position: 1
 title: ⚒️ Les Métiers
 ---
 
-# ⚒️ Système de Compétences & Métiers
+# ⚒️ Système de Compétences
 
-Sur Foxalia, l'apprentissage est naturel. Vous n'avez pas besoin de choisir une voie unique : votre personnage évolue dans chaque domaine simplement en pratiquant vos activités quotidiennes.
-
----
-
-## 📈 Évolution du Personnage
-
-Chaque action que vous entreprenez renforce votre expérience globale. En progressant, vous débloquez des **statistiques bonus** (Force, Santé, Chance) qui font de vous un aventurier plus puissant.
-
-### 🌲 Les différentes disciplines
-* **Agriculture** : Cultivez la terre pour augmenter votre **Santé maximum**.
-* **Exploitation minière** : Fouillez les profondeurs pour renforcer votre **Défense**.
-* **Combat** : Affrontez les monstres pour accroître votre **Force**.
-* **Forgeron** : Travaillez les métaux pour gagner en **Résistance**.
-* **Pêche** : Sondez les eaux pour améliorer votre **Chance** de trouver des trésors.
-* **Excavation** : Remuez la terre pour booster votre **Régénération**.
+Sur Foxalia, votre personnage évolue de manière organique. Chaque action que vous entreprenez renforce votre expérience et vous octroie des bonus permanents.
 
 ---
 
-## ⚡ Capacités Spéciales
+## 📈 Les 11 Disciplines de Foxalia
 
-Au fil de votre progression, vous débloquerez des aptitudes uniques. Pour les activer, faites un **clic droit** avec l'outil correspondant, puis cassez un bloc :
+Il n'y a pas de limite : vous pouvez progresser dans toutes les spécialités en même temps.
 
-| Discipline | Capacité | Effet |
+### ⚔️ Voies du Combat
+* **Combatant** : Maîtrisez les armes au corps à corps pour augmenter votre force.
+* **Archer** : Devenez un expert du tir à l'arc et de la distance.
+* **Défenseur** : Encaissez les coups pour renforcer votre endurance globale.
+
+### ⛏️ Voies de Récolte
+* **Mineur** : Fouillez les profondeurs pour extraire les minerais précieux.
+* **Buchreon** : Travaillez le bois dans les forêts de Foxalia.
+* **Fermier** : Cultivez la terre pour assurer la subsistance du serveur.
+* **Pechur** : Sondez les eaux à la recherche de prises légendaires.
+* **Fouilleur** : Creusez le sol pour déterrer des trésors oubliés.
+
+### 🧪 Voies Mystiques & Physiques
+* **Agilité** : Déplacez-vous avec aisance pour gagner en rapidité.
+* **Alchimie** : Préparez des potions complexes pour booster vos capacités.
+* **Enchanteur** : Manipulez l'énergie magique pour renforcer votre équipement.
+
+---
+
+## ⚡ Aptitudes Spéciales
+
+En montant de niveau, vous débloquez des capacités actives. Pour les déclencher, faites un **clic droit** avec l'outil de la discipline, puis cassez un bloc ou frappez un ennemi :
+
+| Discipline | Capacité principale | Effet en jeu |
 | :--- | :--- | :--- |
-| **Mineur** | **Frenésie de Mine** | Augmente radicalement votre vitesse de minage. |
-| **Bûcheron** | **Bûcheronnage Massif** | Abattez un arbre entier d'un seul coup de hache. |
-| **Fermier** | **Récolte Large** | Récoltez vos plantations sur une vaste zone instantanément. |
-| **Terrassier** | **Excavation Sismique** | Pulvérisez la terre et le sable par larges zones. |
+| **Mineur** | **Frenésie de Mine** | Vitesse de minage décuplée pendant un court instant. |
+| **Buchreon** | **Abattage Total** | Abattez les arbres d'un seul coup de hache. |
+| **Combatant** | **Frappe Sanglante** | Infligez des dégâts bonus critiques à vos adversaires. |
 
 ---
 
-## 💻 Suivre sa progression
+## 💻 Commandes de Progression
 
-:::tip Interface de Progression
-Pour suivre l'évolution de vos compétences et voir vos statistiques en temps réel, utilisez les commandes suivantes.
+:::tip Suivi en temps réel
+Utilisez ces commandes pour voir vos niveaux et les bonus que vous avez débloqués.
 :::
 
-* **/skills** : Ouvre votre menu personnel de progression.
-* **/skills top** : Affiche le panthéon des joueurs les plus expérimentés.
-* **/stats** : Affiche le détail complet de vos attributs (Force, Vie, Mana).
+* **/skills** : Ouvre le menu global de vos compétences.
+* **/stats** : Affiche vos attributs détaillés (Vie, Force, Chance).
+* **/skills top** : Consultez le classement des meilleurs artisans et guerriers.
 
 ---
 
 :::info Énergie Spirituelle (Mana)
-L'activation de vos capacités consomme de la **Mana**. Cette barre d'énergie se recharge automatiquement au repos ou lors de l'utilisation de certaines compétences passives.
+L'utilisation de vos capacités spéciales consomme de la **Mana**. Cette barre se recharge naturellement au fil du temps ou via des bonus spécifiques.
 :::
+
+_Dernière mise à jour le 8 février 2026 par l'Équipe Foxalia_
