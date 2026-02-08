@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: 🔒 Sécuriser vos Biens
+title: 🔒 Les privates
 ---
 
 # 🔒 Système de Verrouillage
@@ -46,4 +46,3 @@ Vous pouvez sécuriser une large variété de blocs utilitaires :
 * **Double protection** : Bien que les pancartes soient efficaces, nous vous conseillons de toujours privatiser vos coffres **à l'intérieur** d'une zone protégée par une Ville pour une sécurité maximale.
 * **Visibilité** : Une pancarte de verrouillage doit rester visible pour être éditée. Ne placez pas de blocs pleins devant vos verrous.
 
-_Dernière mise à jour le 8 février 2026 par l'Équipe Foxalia_
