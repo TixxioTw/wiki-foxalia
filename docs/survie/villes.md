@@ -50,5 +50,3 @@ Une ville prospère nécessite des fonds pour s'agrandir et survivre.
 :::danger Attention au Tribut
 Maintenir une ville demande des ressources. Assurez-vous que la banque de votre ville est toujours approvisionnée pour éviter la dissolution automatique de votre territoire !
 :::
-
-_Dernière mise à jour le 8 février 2026 par l'Équipe Foxalia_

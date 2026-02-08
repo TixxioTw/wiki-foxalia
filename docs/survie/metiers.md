@@ -59,5 +59,3 @@ Utilisez ces commandes pour voir vos niveaux et les bonus que vous avez débloqu
 :::info Énergie Spirituelle (Mana)
 L'utilisation de vos capacités spéciales consomme de la **Mana**. Cette barre se recharge naturellement au fil du temps ou via des bonus spécifiques.
 :::
-
-_Dernière mise à jour le 8 février 2026 par l'Équipe Foxalia_

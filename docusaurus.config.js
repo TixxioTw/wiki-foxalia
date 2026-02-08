@@ -20,8 +20,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'en', 
-    locales: ['en'],
+    defaultLocale: 'fr', 
+    locales: ['fr'],
   },
 
   presets: [
@@ -37,7 +37,7 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           // Lien vers ton repo pour permettre les statistiques de mise à jour
-          editUrl: 'https://github.com/TixxioTw/wiki-foxalia/tree/main/',
+          // editUrl: 'https://github.com/TixxioTw/wiki-foxalia/tree/main/',
         },
         blog: false, // On désactive le blog pour un style pur wiki
         theme: {

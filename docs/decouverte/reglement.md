@@ -79,5 +79,3 @@ Le staff se réserve le droit de supprimer sans préavis toute structure nuisant
 ## ⚖️ AXE IV : LITIGES & SANCTIONS
 
 Toute contestation de sanction doit être effectuée via un ticket Discord. Une contestation jugée abusive pourra entraîner un alourdissement de la peine.
-
-_Dernière mise à jour le 8 février 2026 par l'Équipe Foxalia_
